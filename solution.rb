@@ -5,14 +5,14 @@ class Customer
 	@@all = []
 
 	def initialize(first_name, last_name)
-	@first_name = first_name
-	@last_name  = last_name
-	@@all << self
-	@reviews = []
+		@first_name = first_name
+		@last_name  = last_name
+		@@all << self
+		@reviews = []
 	end
 
 	def full_name
-	"#{first_name} #{last_name}"
+		"#{first_name} #{last_name}"
 	end
 
 	def self.all
@@ -49,10 +49,10 @@ class Restaurant
 	@@all = []
 
 	def initialize(name)
-	@name = name
-	@@all << self
-	@customers = []
-	@reviews = []
+		@name = name
+		@@all << self
+		@customers = []
+		@reviews = []
 	end
 
 	def self.all

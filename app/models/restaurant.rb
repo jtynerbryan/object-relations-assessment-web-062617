@@ -4,10 +4,10 @@ class Restaurant
   @@all = []
 
   def initialize(name)
-    @name = name
-    @@all << self
-    @customers = []
-    @reviews = []
+	@name = name
+	@@all << self
+	@customers = []
+	@reviews = []
   end
 
   def self.all
